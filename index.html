@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="logo">Home</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-inner">
+            <p class="hero-tag">Hi there 👋</p>
+            <h1 class="hero-title">I'm an AI & CS Student</h1>
+            <p class="hero-sub">Passionate about deep learning, neural networks, and building intelligent systems.</p>
+            <a href="#projects" class="cta-btn">See my work ↓</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I'm a computer science student focusing on artificial intelligence and machine learning.
+                My main tools are Python and PyTorch — I spend my days playing with tensors, training
+                neural networks, and trying to figure out why my model's loss isn't decreasing.
+            </p>
+            <p class="about-text">
+                Lately I've been working on a coursework project that explores connecting large language models
+                with autonomous vehicle control. It's challenging, messy, and exactly the kind of thing I love.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>🤖 AI / Deep Learning</h3>
+                    <ul>
+                        <li>PyTorch</li>
+                        <li>Tensor operations</li>
+                        <li>Neural network training</li>
+                        <li>Activation functions & optimizers</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>💻 Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML / CSS / JavaScript</li>
+                        <li>CLI & scripting</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>🧪 Coursework Focus</h3>
+                    <ul>
+                        <li>LLM-based vehicle control</li>
+                        <li>VLM framework exploration</li>
+                        <li>Simulation & visualization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>LLM + Vehicle Control</h3>
+                    <p>Exploring how large language models can be integrated into vehicle control frameworks for decision-making assistance.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>LLM</span><span>VLM</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>PyTorch Classification</h3>
+                    <p>End-to-end image classification pipeline — data preprocessing, model architecture, training loop, and evaluation.</p>
+                    <div class="project-tags">
+                        <span>PyTorch</span><span>Deep Learning</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>This Website</h3>
+                    <p>Part of a coursework comparing AI-generated vs human-guided web development approaches. You're looking at it!</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>GitHub Pages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-text">Feel free to reach out about AI, coding, or anything interesting.</p>
+            <div class="contact-row">
+                <a href="#" class="contact-item">📧 Email</a>
+                <a href="#" class="contact-item">🐙 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Made with ♥ — Student Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
