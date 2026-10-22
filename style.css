@@ -227,6 +227,15 @@ body {
     border-radius: 20px;
     font-weight: 500;
 }
+.project-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: 500;
+}
+.project-link:hover { text-decoration: underline; }
 
 /* ===== Contact ===== */
 .contact-text {
